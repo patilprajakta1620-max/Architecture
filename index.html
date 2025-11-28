@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arcvista Architect - Architecture & Interior Design</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="fav icon" href="https://marketplace.canva.com/EAE3Ch1t8EA/4/0/1600w/canva-beige-black-neutral-hand-drawn-vase-interior-design-logo-KHkZB4zVrn4.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-info">
+  <div class="container-fluid">
+    <a class="navbar-brand fw-bold text-dark" href="#">
+        <img src="https://img.freepik.com/premium-vector/colorful-bird-wing-feather-logo-icon_23758-199.jpg?semt=ais_hybrid&w=740&q=80" alt="" width="60"> Arcvista Architect
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
+            aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="mainNavbar">
+      <ul class="navbar-nav ms-auto align-items-lg-center">
+        <li class="nav-item">
+          <a class="nav-link fw-bold text-dark" href="index.html">Home</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link fw-bold text-dark" href="About.html">About Us</a>
+        </li>
+
+        <!-- Services Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link fw-bold dropdown-toggle text-dark" href="Services.html" id="servicesDropdown" role="button"
+             data-bs-toggle="dropdown" aria-expanded="false">
+            Services
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+            <li><a class="dropdown-item" href="architectural-design.html">Architectural Design</a></li>
+            <li><a class="dropdown-item" href="interior-design.html">Interior Design</a></li>
+            <li><a class="dropdown-item" href="3d-elevation.html">3D Elevation &amp; Visualization</a></li>
+            <li><a class="dropdown-item" href="renovation.html">Renovation &amp; Remodeling</a></li>
+            <li><a class="dropdown-item" href="landscape-design.html">Landscape Design</a></li>
+            <li><a class="dropdown-item" href="vastu-consultation.html">Vastu Consultation</a></li>
+          </ul>
+        </li>
+
+        <!-- Blog Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link fw-bold dropdown-toggle text-dark" href="Blog.html" id="blogDropdown" role="button"
+             data-bs-toggle="dropdown" aria-expanded="false">
+            Blog
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="blogDropdown">
+           <li><a class="dropdown-item" href="blog-Sustainable Architecture.html">Sustainable Architecture: Building a Greener Future</a></li>
+            <li><a class="dropdown-item" href="blog-3d-visualization.html">Why 3D Visualization Has Become Essential in Architecture</a></li>
+            <li><a class="dropdown-item" href="blog-small-spaces.html">Smart Space Planning: Small Homes, Big Ideas</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link fw-bold text-dark" href="Contact.html">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+ 
+<!-- Hero Banner -->
+
+<!-- ====== 3-SLIDE BANNER / CAROUSEL ====== -->
+<div id="homeCarousel" class="carousel slide" data-bs-ride="carousel">
+  <!-- indicators -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+
+  <div class="carousel-inner">
+    <!-- Slide 1 -->
+    <div class="carousel-item active">
+      <img src="https://constructco.us/wp-content/uploads/2025/06/banner3.jpg" class="d-block w-100" alt="Slide 1"
+           style="height:80vh; object-fit:cover;">
+      <!-- overlay + content -->
+      <div class="position-absolute top-50 start-50 translate-middle text-center text-white w-100 px-3">
+        <div class="mx-auto" style="max-width:920px;">
+          <div class="bg-dark bg-opacity-50 rounded p-4">
+            <h1 class="display-5 fw-bold mb-2">Designing Spaces That Inspire</h1>
+            <p class="lead mb-3">Creative architecture & interiors crafted for modern living and lasting value.</p>
+            <a href="services.html" class="btn btn-warning btn-lg">Explore Services</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 2 -->
+    <div class="carousel-item">
+      <img src="https://images.pexels.com/photos/374710/pexels-photo-374710.jpeg" class="d-block w-100" alt="Slide 2"
+           style="height:80vh; object-fit:cover;">
+      <div class="position-absolute top-50 start-50 translate-middle text-center text-white w-100 px-3">
+        <div class="mx-auto" style="max-width:920px;">
+          <div class="bg-dark bg-opacity-50 rounded p-4">
+            <h1 class="display-5 fw-bold mb-2">3D Visualization & Walkthroughs</h1>
+            <p class="lead mb-3">See your project before it’s built — realistic renders and immersive walkthroughs.</p>
+            <a href="3d-elevation.html" class="btn btn-outline-light btn-lg">View Visuals</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 3 -->
+    <div class="carousel-item">
+      <img src="https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg" class="d-block w-100" alt="Slide 3"
+           style="height:80vh; object-fit:cover;">
+      <div class="position-absolute top-50 start-50 translate-middle text-center text-white w-100 px-3">
+        <div class="mx-auto" style="max-width:920px;">
+          <div class="bg-dark bg-opacity-50 rounded p-4">
+            <h1 class="display-5 fw-bold mb-2">Renovation & Remodeling Experts</h1>
+            <p class="lead mb-3">Transform old spaces into fresh, functional and beautiful places.</p>
+            <a href="renovation.html" class="btn btn-warning btn-lg">See Projects</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- controls -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#homeCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#homeCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+ <!-- hero banner end -->
+
+
+ <!-- About Us -->
+ <div class="mt-5 px-3 px-md-5">
+    <h4 class="text-center fw-bold text-warning">About Us</h4>
+    <h2 class="text-center fw-bold fs-3 fs-md-2">We Are Dedicated To Provide</h2>
+    <h2 class="text-center fw-bold fs-3 fs-md-2">Best Architecture Solutions</h2><br>
+
+ <div class="mt-2 mb-5">
+    <div class="About">
+        <div class="row g-4">
+            <div class="col-12 col-md-6 pt-5 pb-5 bg-secondary">
+              
+                <h3 class="text-center fw-bold fs-4 fs-md-3">10 Years Working Experience</h3>
+                <p class="mt-3 px-3 fw-bold text-white fs-6">At our architecture studio, we believe great spaces start with great understanding. We spend time learning how you live, work, and use your environment — and then turn those needs into designs that feel natural, functional, and beautifully crafted. Every project, big or small, is treated with the same attention to detail, thoughtful planning, and practical creativity. Our approach is simple: clear communication, smart planning, and designs that make life easier. From residential homes to commercial spaces, we create layouts that look good, perform well, and stand the test of time. With a blend of modern ideas and practical solutions, we make sure every space we design reflects your personality and purpose. We don't just design buildings — we design experiences. Spaces that work with you, inspire you, and bring comfort every single day.</p>
+                <div class="text-center">
+                  <button class="btn btn-warning fw-bold">Learn More</button>
+                </div>                    
+            </div>    
+            <div class="col-12 col-md-6 d-flex align-items-center justify-content-center bg-secondary pt-3 pt-md-5 px-3 px-md-4 pb-5">
+                <img src="https://media.istockphoto.com/id/635732164/photo/realize-your-interior-dream-mixed-media.jpg?s=612x612&w=0&k=20&c=y9ZeXix7TgOqgsXqlVm0TTjBH57wSIMtAF7EqYAiWOg=" class="img-fluid" alt="Interior Design">
+            </div>
+        </div>
+    </div>
+ </div>
+
+    <!-- about us end-->
+
+    <!-- Services start -->
+    <div class="px-3 px-md-5 mt-5">
+  <h4 class="text-center fw-bold text-warning">Our Services</h4>
+  <h2 class="text-center fw-bold fs-3 fs-md-2">We Focused On Modern</h2>
+  <h2 class="text-center fw-bold fs-3 fs-md-2">Architecture And Interior Design</h2><br>
+
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4">
+
+    <!-- Service 1 -->
+    <div class="col">
+      <div class="card service-card shadow-sm h-100">
+        <img src="https://media.istockphoto.com/id/1063723682/photo/hand-sketching-a-designer-villa-with-pool.jpg?s=612x612&w=0&k=20&c=SlIacvwSEEsZ-2imWLDk6dC0glhaWEg-pOGFSK4YQuI=" class="card-img-top" alt="Architectural Design" height="250">
+        <div class="card-body">
+          <h5 class="card-title">Architectural Design</h5>
+          <p class="card-text">We create innovative and functional building designs that blend creativity with practicality.</p>
+          <a href="architectural-design.html" class="btn btn-warning w-100">Know More</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Service 2 -->
+    <div class="col">
+      <div class="card service-card shadow-sm h-100">
+        <img src="https://www.bhg.com/thmb/EmuKL4yiqCMRZlclvSIJtMln9vU=/1866x0/filters:no_upscale():strip_icc()/renovated-neutral-colored-living-room-2f194807-3856ba1a2ea04e269ea42e93021fda64.jpg" class="card-img-top" alt="3D Visualization" height="250">
+        <div class="card-body">
+          <h5 class="card-title">3D Elevation & Visualization</h5>
+          <p class="card-text">High-quality 3D designs that showcase every detail of your future space.</p>
+          <a href="3d-elevation.html" class="btn btn-warning w-100">Know More</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Service 3 -->
+    <div class="col">
+      <div class="card service-card shadow-sm h-100">
+        <img src="https://www.homeinspirationideas.net/wp-content/uploads/2022/02/Contemporary-Living-Room-Design-Timeless-and-Iconic_10.jpg" class="card-img-top" alt="Interior Design" height="250">
+        <div class="card-body">
+          <h5 class="card-title">Interior Design</h5>
+          <p class="card-text">We design elegant, comfortable and functional interior spaces.</p>
+          <a href="interior-design.html" class="btn btn-warning w-100">Know More</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Service 4 -->
+    <div class="col">
+      <div class="card service-card shadow-sm h-100">
+        <img src="https://ultimaterenovations.com/wp-content/uploads/2025/05/C21072_20220929-webres-011.jpg" class="card-img-top" alt="Renovation" height="250">
+        <div class="card-body">
+          <h5 class="card-title">Renovation & Remodeling</h5>
+          <p class="card-text">Transforming old spaces into fresh and modern environments.</p>
+          <a href="renovation.html" class="btn btn-warning w-100">Know More</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Service 5 -->
+    <div class="col">
+      <div class="card service-card shadow-sm h-100">
+        <img src="https://t3.ftcdn.net/jpg/08/12/92/20/360_F_812922096_5pa6GhZjrVJEO8yIPeFNf7hqslTMBQji.jpg" class="card-img-top" alt="Landscape Design" height="250">
+        <div class="card-body">
+          <h5 class="card-title">Landscape Design</h5>
+          <p class="card-text">Beautiful outdoor spaces with natural charm and smart planning.</p>
+          <a href="landscape-design.html" class="btn btn-warning w-100">Know More</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Service 6 -->
+    <div class="col">
+      <div class="card service-card shadow-sm h-100">
+        <img src="https://destinywworld.in/public/images/upload/Vastu%20Home%20pic_1683728308.jpg" class="card-img-top" alt="Vastu Consultation" height="250">
+        <div class="card-body">
+          <h5 class="card-title">Vastu Consultation</h5>
+          <p class="card-text">Balanced, positive and harmonious space planning based on Vastu.</p>
+          <a href="vastu-consultation.html" class="btn btn-warning w-100">Know More</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+    <!-- Services end -->
+
+    <!-- Testimonials start -->
+    <div class="px-3 px-md-5 mt-5">
+      <h4 class="text-center fw-bold text-warning mt-5">Testimonials</h4>
+      <h2 class="text-center fw-bold fs-3 fs-md-2">Thousands Of Customers Who Trust</h2>
+      <h2 class="text-center fw-bold fs-3 fs-md-2">Us And Our Services</h2><br>
+
+<section class="py-5 bg-light">
+  <div class="container-fluid bg-secondary text-white px-3">
+    <h2 class="text-center mb-5 pt-5 fs-4 fs-md-3">What Our Clients Say</h2>
+         
+    <div id="testimonialCarousel" class="carousel slide mb-5" data-bs-ride="carousel">
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <div class="text-center p-3 p-md-4">
+            <p class="mb-3 fs-6 fs-md-5">"Amazing architectural work! The team was supportive from start to finish."</p>
+            <h6 class="fw-bold">Nikita Deshmukh</h6>
+            <small>Home Owner</small>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="text-center p-3 p-md-4">
+            <p class="mb-3 fs-6 fs-md-5">"Their 3D designs helped us visualize the entire project perfectly."</p>
+            <h6 class="fw-bold">Rahul Joshi</h6>
+            <small>Client</small>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="text-center p-3 p-md-4">
+            <p class="mb-3 fs-6 fs-md-5">"Great team, great attitude, and excellent output. Highly recommended."</p>
+            <h6 class="fw-bold">Megha Kulkarni</h6>
+            <small>Interior Client</small>
+          </div>
+        </div>
+
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+
+      <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+  </div>
+</section>
+    </div>
+    <!-- Testimonials end-->
+
+  
+    <!-- Blog Section Start -->
+    <div class="px-3 px-md-5 mt-5">
+  <h4 class="text-center fw-bold text-warning mt-5">Latest Blogs</h4>
+  <h2 class="text-center fw-bold fs-3 fs-md-2">Latest News And Articles</h2>
+  <h2 class="text-center fw-bold fs-3 fs-md-2">On Architecture And Design</h2><br>
+
+   <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4">
+
+    <!-- Blog 1 -->
+    <div class="col">
+      <div class="card service-card shadow-sm h-100">
+        <img src="https://www.archezy.com/wp-content/uploads/2023/11/3.2-scaled.jpg" class="card-img-top" alt="Sustainable Architecture" height="250">
+        <div class="card-body">
+          <h5 class="card-title">Sustainable Architecture: Building a Greener Future</h5>
+          <p class="card-text">Understand how eco-friendly materials, energy-efficient designs and smart methods shape greener buildings.</p>
+          <a href="blog-Sustainable Architecture.html" class="btn btn-secondary w-100">Learn More</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Blog 2 -->
+    <div class="col">
+      <div class="card service-card shadow-sm h-100">
+        <img src="https://foyr.com/learn/wp-content/uploads/2019/02/3d-floor-overview-on-top-of-construction-documents-home-design-and.jpg" class="card-img-top" alt="3D Visualization" height="250">
+        <div class="card-body">
+          <h5 class="card-title">Why 3D Visualization Has Become Essential</h5>
+          <p class="card-text">Realistic 3D renders help clients understand designs better—even before construction begins.</p>
+          <a href="blog-3d-visualization.html" class="btn btn-secondary w-100">Learn More</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Blog 3 -->
+    <div class="col">
+      <div class="card service-card shadow-sm h-100">
+        <img src="https://mainifesto.com/wp-content/uploads/2025/05/Micro-Apartments-Maximizing-Small-Spaces-for-Big-City-Living-1.png" class="card-img-top" alt="Space Planning" height="250">
+        <div class="card-body">
+          <h5 class="card-title">Smart Space Planning: Small Homes, Big Ideas</h5>
+          <p class="card-text">Creative layouts, smart furniture and design tricks to make compact spaces feel bigger.</p>
+          <a href="blog-small-spaces.html" class="btn btn-secondary w-100">Learn More</a>
+        </div>
+      </div>
+    </div>
+
+   </div>
+</div>
+
+    <!-- Blog Section End --> 
+
+<!-- FOOTER START -->
+<footer class="bg-dark text-light pt-5 pb-4 mt-5 w-100">
+  <div class="container-fluid bg-dark">
+    <div class="container px-3 px-md-0">
+      <div class="row g-4">
+        <!-- ADDRESS -->
+        <div class="col-12 col-sm-6 col-lg-3 mb-2 mb-md-0">
+          <h5 class="text-uppercase fw-bold mb-4 fs-6" style="letter-spacing:2px;">Address</h5>
+          <p class="mb-1 fs-6"><i class="fas fa-map-marker-alt me-2 text-warning"></i>123 Street, Dadar, Mumbai</p>
+          <p class="mb-1 fs-6"><i class="fas fa-phone me-2 text-warning"></i>+012 345 67890</p>
+          <p class="mb-2 fs-6"><i class="fas fa-envelope me-2 text-warning"></i>info@example.com</p>
+
+          <div class="d-flex gap-2 mt-3">
+            <a href="#" class="text-light border border-secondary p-2 d-inline-flex align-items-center justify-content-center"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="text-light border border-secondary p-2 d-inline-flex align-items-center justify-content-center"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="text-light border border-secondary p-2 d-inline-flex align-items-center justify-content-center"><i class="fab fa-youtube"></i></a>
+            <a href="#" class="text-light border border-secondary p-2 d-inline-flex align-items-center justify-content-center"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+
+        <!-- SERVICES -->
+        <div class="col-12 col-sm-6 col-lg-3 mb-2 mb-md-0">
+          <h5 class="text-uppercase fw-bold mb-4 fs-6" style="letter-spacing:2px;">Services</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2 fs-6"><i class="fas fa-angle-right me-2 text-warning"></i><a href="architectural-design.html" class="text-light text-decoration-none">Architectural Design</a></li>
+            <li class="mb-2 fs-6"><i class="fas fa-angle-right me-2 text-warning"></i><a href="3d-elevation.html" class="text-light text-decoration-none">3D Elevation & Visualization</a></li>
+            <li class="mb-2 fs-6"><i class="fas fa-angle-right me-2 text-warning"></i><a href="interior-design.html" class="text-light text-decoration-none">Interior Design</a></li>
+            <li class="mb-2 fs-6"><i class="fas fa-angle-right me-2 text-warning"></i><a href="renovation.html" class="text-light text-decoration-none">Renovation & Remodeling</a></li>
+            <li class="mb-2 fs-6"><i class="fas fa-angle-right me-2 text-warning"></i><a href="landscape-design.html" class="text-light text-decoration-none">Landscape Design</a></li>
+            <li class="mb-2 fs-6"><i class="fas fa-angle-right me-2 text-warning"></i><a href="vastu-consultation.html" class="text-light text-decoration-none">Vastu Consultation</a></li>
+          </ul>
+        </div>
+
+        <!-- QUICK LINKS -->
+        <div class="col-12 col-sm-6 col-lg-3 mb-2 mb-md-0">
+          <h5 class="text-uppercase fw-bold mb-4 fs-6" style="letter-spacing:2px;">Quick Links</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2 fs-6"><i class="fas fa-angle-right me-2 text-warning"></i><a href="About.html" class="text-light text-decoration-none">About Us</a></li>
+            <li class="mb-2 fs-6"><i class="fas fa-angle-right me-2 text-warning"></i><a href="Services.html" class="text-light text-decoration-none">Our Services</a></li>
+            <li class="mb-2 fs-6"><i class="fas fa-angle-right me-2 text-warning"></i><a href="Blog.html" class="text-light text-decoration-none">Blog/Articles</a></li>
+            <li class="mb-2 fs-6"><i class="fas fa-angle-right me-2 text-warning"></i><a href="Contact.html" class="text-light text-decoration-none">Contact Us</a></li>
+            <li class="mb-2 fs-6"><i class="fas fa-angle-right me-2 text-warning"></i><a href="#" class="text-light text-decoration-none">Support</a></li>
+          </ul>
+        </div>
+
+        <!-- NEWSLETTER -->
+        <div class="col-12 col-sm-6 col-lg-3">
+          <h5 class="text-uppercase fw-bold mb-4 fs-6" style="letter-spacing:2px;">Newsletter</h5>
+          <p class="fs-6">Get the latest updates and offers directly in your inbox.</p>
+
+          <form class="mt-3" onsubmit="return false;">
+            <div class="input-group input-group-sm">
+              <input type="email" class="form-control bg-transparent text-light border-secondary" placeholder="Your email" aria-label="email">
+              <button class="btn btn-warning text-dark px-3" type="submit">SignUp</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="border-top border-secondary text-center pt-3 mt-4">
+        <p class="mb-0 text-secondary fs-6">© 2025 Arcvista Architect. All Rights Reserved.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- FOOTER END -->
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
+
+

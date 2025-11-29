@@ -256,59 +256,11 @@ body {
 }
 
 /* ===== TESTIMONIALS SECTION ===== */
-.carousel-item {
-  padding: 2rem 0;
+
+.carousel-item{
+  margin-top: 20%;
 }
 
-.carousel-item p {
-  margin-bottom: 1
-  rem;
-}
-
-@media (max-width: 768px) {
-  .carousel-item {
-    padding: 1.5rem 0;
-  }
-  
-  .carousel-item p {
-    font-size: 0.95rem !important;
-  }
-  
-  .carousel-item h6 {
-    font-size: 0.95rem;
-  }
-}
-
-@media (max-width: 576px) {
-  .carousel-item {
-    padding: 1rem 0;
-  }
-  
-  .carousel-item p {
-    font-size: 0.85rem !important;
-  }
-  
-  .carousel-item h6 {
-    font-size: 0.9rem;
-  }
-  
-  .carousel-item small {
-    font-size: 0.75rem;
-  }
-}
-
-/* ===== BLOG SECTION ===== */
-@media (max-width: 768px) {
-  .row-cols-sm-2 > .col {
-    flex: 0 0 calc(50% - 0.5rem);
-  }
-}
-
-@media (max-width: 576px) {
-  .row-cols-1 > .col {
-    flex: 0 0 100%;
-  }
-}
 
 /* ===== FOOTER ===== */
 footer {
